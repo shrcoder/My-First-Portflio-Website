@@ -28,6 +28,8 @@
     align-items: center;
     cursor: pointer;
     color: white;
+    display: inline-flex;
+    gap: 4px;
     
 }
 .btn-1:hover{
