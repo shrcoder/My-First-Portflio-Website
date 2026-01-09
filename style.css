@@ -60,6 +60,7 @@ nav{
     gap: 30px;
     align-items: center;
     list-style-type:none;
+    cursor: pointer;
 }
 .manu a{
     text-decoration: none;
@@ -125,22 +126,37 @@ padding-bottom: 16px;
 .note-container{
     line-height: 20px 0px;
 }
-.container-card{
-    align-items: center;
-}
-.container-card{
-    background-color: white;
-    border-radius: 15px;
-    padding: 20px 20px;
-}
-.card img{
+
+.card-img img{
     background-color: #F95555;
+    border-radius: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
 }
-#card{
-    display: flex;
+.card-img{
     align-items: center;
     justify-content: space-between;
+    height: 280px;
+    max-width: 301px;
+    width: 100%;  
+} 
+
+.container-card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
 }
+#card{
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
 .knowledge-container{
     display: flex;
     align-items: center;
