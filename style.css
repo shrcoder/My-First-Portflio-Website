@@ -179,8 +179,14 @@ padding-bottom: 16px;
 #knowledge{
     margin-bottom: 120px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#info-1{
+    padding: 0px 120px 120px 120px;
+}
+.info-container-1{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 80px 40px 80px 40px;
+    background-color: #F7F6F2;
+    border-radius:12px ;
 }
