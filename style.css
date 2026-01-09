@@ -72,7 +72,7 @@ nav{
 .hero-container{
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0 auto;
     gap: 32px;
     
@@ -113,7 +113,7 @@ nav{
 }
 .note-container{
     margin:0px 120px 44px 120px;
-    border: 1px solid red;
+    /* border: 1px s */
     text-align: center;
 }
 .note-container h2{
@@ -244,4 +244,22 @@ padding-bottom: 16px;
 }
 .footer-logo{
     padding-bottom: 80px;
+}
+.footer-social h2{
+    padding-bottom: 16px;
+}
+
+.copy-1{
+    border: 1px solid rgb(68, 67, 67);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    align-items: center;
+}
+.copy-1 p{
+    align-items: center;
+    text-align: center;
+}
+.copy-1 p{
+    padding-top: 30px;
 }
