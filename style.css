@@ -233,4 +233,15 @@ padding-bottom: 16px;
 .p-1{
     color: #627382;
 }
-
+.footer-section{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:80px ;
+}
+.footer-logo{
+    padding-bottom: 80px;
+}
